@@ -24,7 +24,7 @@ button.addEventListener("click", function(){
 function progressInterva(){
     if(count == 100 && percentWidth == 100){
         clearInterval(progressLoad)
-        percent.textContent = "Ok rùi đó:)";
+        percent.textContent = "Oke, Bắt đầu thôi";
         percent.style.letterSpacing = "1px";
         textBox.style.transform = "scale(1.3)"
         heartItem3.style.animation = "1s heartScale forwards"
@@ -39,14 +39,14 @@ function progressInterva(){
         },800);
         setTimeout(()=>{
             button.style.background = "rgb(244,118,121)"
-            button.style.width = "130px";
+            button.style.width = "190px";
             button.style.borderRadius = "20px"
         },1500)
         setTimeout(()=>{
             button.style.height = "40px";
         },2000)
         setTimeout(()=>{
-            textBtn.textContent = "Click me!"
+            textBtn.textContent = "Theo anh nào!"
             textBtn.style.color = "#fff"
         },2500)
         setTimeout(()=>{
